@@ -33,11 +33,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 3/ 
 
 ![image](https://user-images.githubusercontent.com/26114322/190281368-ec2ad2bb-a4cf-4e9d-814b-d73742570187.png)
-selecciona firebase moviendose con las flechas arriba o abajo y espacio, luego enter para continuar
-respondemos segun sea el caso, y automaticamente se actualizan los archivos necesarios para la comunicacion entre firebase la aplicacion.
+
+select firebase by moving with the up or down arrows and space, then enter to continue
+
+We respond as the case may be, and the necessary files for communication between firebase and the application are automatically updated.
 ![image](https://user-images.githubusercontent.com/26114322/190281879-854f5fff-42a1-4680-900e-0ca2d7dd8a68.png)
 
-ruta del AngularFirestore
+AngularFirestore path
+
 
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 
@@ -45,9 +48,8 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
 
 //
 
-4/ Then, you need to initialize firebase > `firebase init`
+`firebase init`
 
-![image](https://user-images.githubusercontent.com/26114322/190281726-049d6018-62ba-495d-bf10-47e3e37175b7.png) // para configurar otros modulos de firestore.
 
 
 
