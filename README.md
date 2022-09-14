@@ -23,6 +23,14 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Conf
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+1/ First, you have to connect your firebase account > `firebase login`
+
+2/ Next, check if the connection is alright (you need to create your project on firebase in a first place to see it in the result) > `firebase projects:list`
+
+3/ Then, you need to initialize firebase > `firebase init`
+
+4/ And now you can add the following command > `ng add @angular/fire`
