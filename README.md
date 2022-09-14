@@ -25,12 +25,29 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Conf
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 1/ First, you have to connect your firebase account > `firebase login`
 
 2/ Next, check if the connection is alright (you need to create your project on firebase in a first place to see it in the result) > `firebase projects:list`
+ And now you can add the following command > `ng add @angular/fire`
+3/ 
 
-3/ Then, you need to initialize firebase > `firebase init`
+![image](https://user-images.githubusercontent.com/26114322/190281368-ec2ad2bb-a4cf-4e9d-814b-d73742570187.png)
+selecciona firebase moviendose con las flechas arriba o abajo y espacio, luego enter para continuar
+respondemos segun sea el caso, y automaticamente se actualizan los archivos necesarios para la comunicacion entre firebase la aplicacion.
+![image](https://user-images.githubusercontent.com/26114322/190281879-854f5fff-42a1-4680-900e-0ca2d7dd8a68.png)
 
-4/ And now you can add the following command > `ng add @angular/fire`
+ruta del AngularFirestore
+
+import { AngularFirestore } from '@angular/fire/compat/firestore';
+
+![image](https://user-images.githubusercontent.com/26114322/190282205-f26c481a-4177-46ad-befa-497211529e9d.png)
+
+//
+
+4/ Then, you need to initialize firebase > `firebase init`
+
+![image](https://user-images.githubusercontent.com/26114322/190281726-049d6018-62ba-495d-bf10-47e3e37175b7.png) // para configurar otros modulos de firestore.
+
+
+
