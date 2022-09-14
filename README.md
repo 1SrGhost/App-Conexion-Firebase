@@ -1,8 +1,6 @@
 # App-Conexion-Firebase
 pasos para conectar el firebase con una aplicación en angular, y algunos servicios base para  consultar, editar o borrar información de la base de datos.
 
-# ScreenPresentations
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
 ## Development server
